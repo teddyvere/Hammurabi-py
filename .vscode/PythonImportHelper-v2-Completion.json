@@ -1,0 +1,11 @@
+[
+    {
+        "label": "HammurabiTest",
+        "kind": 6,
+        "importPath": "TestHamurabi",
+        "description": "TestHamurabi",
+        "peekOfCode": "class HammurabiTest:\n    def __init__(self):\n        self.ham = Hammurabi()\n    def about(self, expected, actual):\n        return 0.90 * expected < actual < 1.10 * expected\n    def testPlagueDeaths1(self):\n        number_of_plagues = 0\n        for i in range(10000):\n            deaths = self.ham.plagueDeaths(100)\n            if deaths > 0:",
+        "detail": "TestHamurabi",
+        "documentation": {}
+    }
+]
